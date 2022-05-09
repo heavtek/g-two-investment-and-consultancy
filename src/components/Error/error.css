@@ -1,0 +1,30 @@
+.not-found-container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.not-found-parent{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 100%;
+    border-radius: 20%;
+    padding: 40px;
+   flex-direction: column
+}
+.not-found-text{
+     font-size: 4rem;
+     font-weight: bold;
+    color: rgb(33, 37, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.not-found-status{
+   color: red;
+   font-weight: bold;
+   font-size: 8rem;
+   text-shadow: 10px 10px 10px rgb(33, 37, 41);
+}

@@ -1,0 +1,5 @@
+.member-img{
+    height: max(10rem,30vh) !important;
+    width: 100%!important;
+    object-fit: cover;
+}

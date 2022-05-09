@@ -1,0 +1,42 @@
+.dashobard-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.d-card{
+    background-color: green;
+      color:white;
+      transition: all .5s ease-in-out;
+   font-size: 1.3rem;
+   text-align: center;
+}
+
+.card-title{
+    font-size: 2rem;
+}
+
+.card-counter{
+    font-size: 1.5rem;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    box-shadow: 2px 2px 2px green;
+     transition: all .5s ease-in;
+     padding: 10px;
+}
+.card-counter:hover{
+    background-color: green;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.d-card:hover{
+    background-color: #fff;
+    border: 1px solid green;
+    box-shadow: 3px 3px 3px lightgreen;
+   color:green;
+   cursor: pointer;
+}

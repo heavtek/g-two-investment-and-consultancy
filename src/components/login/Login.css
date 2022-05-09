@@ -1,0 +1,48 @@
+.login-btn{
+    border: none;
+    width: 30% !important ;
+    text-align: center;
+    background-color: #233b37;
+    margin:  20px auto 10px auto;
+    color: white;
+    padding: 10px;
+    transition: all .5s;
+    box-shadow: 1px 1px 3px #233b37;
+    display: block;
+}
+
+.login-btn:hover{
+  cursor: pointer;
+  border: 1px solid #233b37;
+  background-color: white;
+  color: #233b37;
+  box-shadow: 1px 1px 3px white;
+}
+
+.reset-btn{
+  border: none;
+  width: 100% !important ;
+  text-align: center;
+  background-color: #233b37;
+  margin:  20px auto 10px auto;
+  color: white;
+  padding: 10px;
+  transition: all .5s;
+  box-shadow: 1px 1px 3px #233b37;
+}
+
+.reset-btn:hover{
+cursor: pointer;
+border: 1px solid #233b37;
+background-color: white;
+color: #233b37;
+box-shadow: 1px 1px 3px white;
+}
+.error{
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
+  margin:  auto;
+  width: 80% !important;
+  font-weight: bold;
+}

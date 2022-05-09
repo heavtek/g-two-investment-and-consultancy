@@ -1,0 +1,53 @@
+.list{
+  background-color: rgba(75, 75, 120, 0.808) ;
+    color: green;
+ 
+};
+ .list-item{
+  background-color: #ffd700;
+  border-radius: 10px;
+  transition: all .5s ease-in;
+    margin:  0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top:50px !important;
+    margin-bottom: 5px !important;
+} 
+.list-item:hover {
+  background-color:rgba(18, 134, 43, 0.808) !important;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+  } 
+  .list-item:focus{
+    background-color: #22b95a;
+    color:whitesmoke;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  /* .aboutus .card{
+    background-color: #ffd700;
+  }
+  .aboutus .form{
+      box-shadow: 34px;
+      text-align: center;
+      color: blue;
+      margin-right:28%;
+ 
+  }
+  .login{
+    border: red;
+    border-radius: 3px solid red;
+    margin-left: 67px;
+   position:absolute;
+    margin-bottom: -89%;
+  }
+  .loginform{
+      border: 100px  solid lightgray;
+      border-width:15px;
+     display: flex;
+      align-items: center;
+margin-top:24%;
+
+  } */
